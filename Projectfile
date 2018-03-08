@@ -1,0 +1,23 @@
+# bureau (see github.com/python-medikit)
+
+from medikit import require
+
+python = require('python')
+git = require('git')
+make = require('make')
+
+python.setup(
+    name='bureau',
+    description=
+    'Bureau handles the administrative tasks of your projects. Command line interfaces, system environment, settings...',
+    license='Apache License, Version 2.0',
+    url='',
+    download_url='',
+    author='Romain Dorgueil',
+    author_email='romain@dorgueil.net',
+)
+
+python.add_requirements(
+)
+
+# vim: ft=python:
